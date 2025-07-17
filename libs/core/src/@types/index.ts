@@ -1,4 +1,4 @@
-export type ComponentPropsMap = Record<string, any>;
+export interface ComponentPropsMap {};
 
 export type ComponentConfig<K extends keyof ComponentPropsMap> = {
   /**
